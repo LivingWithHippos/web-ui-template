@@ -26,9 +26,11 @@
               <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
                 <li data-set-theme="cupcake"><a>cupcake</a></li>
                 <li data-set-theme="cyberpunk"><a>cyberpunk</a></li>
+                <li data-set-theme="acid"><a>acid</a></li>
                 <li data-set-theme="bumblebee"><a>bumblebee</a></li>
                 <li data-set-theme="dark"><a>dark</a></li>
                 <li data-set-theme="luxury"><a>luxury</a></li>
+                <li data-set-theme="coffee"><a>coffee</a></li>
               </ul>
             </div>
             </li>
