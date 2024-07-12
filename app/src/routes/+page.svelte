@@ -1,9 +1,18 @@
-<div class="hero min-h-screen bg-base-200">
-  <div class="hero-content text-center">
-    <div class="max-w-md">
-      <h1 class="text-5xl font-bold">¡Hola, mundo!</h1>
-      <p class="py-6">This is a hero banner. Check out all the DaisyUI components.</p>
-      <button class="btn btn-primary"><a target="_blank" rel="noopener noreferrer" href="https://daisyui.com/components/">Get Started</a></button>
+<script lang="ts">
+    
+    function openDaisyUI() {
+        window.open('https://daisyui.com/components', '_blank');
+    }
+</script>
+
+<div class="hero bg-base-200 min-h-screen">
+    <div class="hero-content text-center">
+        <div class="max-w-md">
+            <h1 class="text-5xl font-bold">SvelteKit + DaisyUI template</h1>
+            <p class="py-6">
+                Check out the DaisyUI components to start coding your next project.
+            </p>
+            <button class="btn btn-primary" on:click={openDaisyUI}>Get Started</button>
+        </div>
     </div>
-  </div>
 </div>

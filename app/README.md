@@ -1,7 +1,15 @@
-# INTERFACE
+# Creation
 
-This project will contain all the new web interfaces.
 
-## Installation
+npm create svelte@latest my-app
 
-Install [Node.js](https://nodejs.org/en/), go with a terminal inside the folder with `package.json` and run `npm install`
+npm i -D @sveltejs/adapter-static
+
+npm install -D tailwindcss
+npx tailwindcss init
+
+npm install -D postcss-import
+
+npm install -D autoprefixer
+
+npm i -D daisyui@latest
