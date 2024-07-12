@@ -6,7 +6,6 @@ A [Svelte Kit](https://kit.svelte.dev/) + [daisyUI](https://daisyui.com/) + Type
 - [Svelte Kit](https://kit.svelte.dev/) (with [Vite](https://vitejs.dev/))
 - [DaisyUI](https://daisyui.com)
 - [TailwindCSS](https://tailwindcss.com/)
-- [TailwindCSS typhography](https://tailwindcss.com/docs/typography-plugin)
 - [Theme change](https://github.com/saadeghi/theme-change)
 
 ## Installation
