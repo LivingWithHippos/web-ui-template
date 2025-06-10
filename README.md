@@ -1,5 +1,5 @@
 # web-ui-template
-A [Svelte Kit](https://kit.svelte.dev/) + [daisyUI](https://daisyui.com/) + Typescript web app project skeleton
+A [Svelte Kit](https://kit.svelte.dev/) + [daisyUI](https://daisyui.com/) + web app project template
 
 ## Libraries and Frameworks
 
@@ -19,14 +19,15 @@ A [Svelte Kit](https://kit.svelte.dev/) + [daisyUI](https://daisyui.com/) + Type
 
 ## Configuration and developement
 
-These are the configuration files:
+These are the configuration files, aside from `package.json`:
 
-- package.json
-- postcss.config.cjs
 - svelte.config.js
-- tailwind.config.js
-- tsconfig.js
+- tsconfig.json
 - vite.config.ts
 
-The adapter used to specify how the app should be build is set to `static` at the moment. This means the build will be a colllection of static files ready to be served by any web server (Caddy, Flask, Apache etc.).
+The adapter used to specify how the app should be build is set to `static` at the moment. This means the build will be a collection of static files ready to be served by any web server (Caddy, Nginx, Flask etc.).
 Follow [this guide](https://kit.svelte.dev/docs/adapters) to change the adapter.
+
+## Svelte Runes
+
+The project has been migrated to Svelte 5 + DaisyUI 5 + Tailwind 4 and it has a couple of examples
