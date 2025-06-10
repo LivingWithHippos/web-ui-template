@@ -29,7 +29,7 @@
         <button
             class="btn btn-soft btn-info"
             onclick={() =>
-                toast.callToast("Looong Looooong Woooooorld!", "info", 10000)}
+                toast.callToast("Looong, Looooong Woooooorld!", "info", 10000)}
         >
             Long toast
         </button>
