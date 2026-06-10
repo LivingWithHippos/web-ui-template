@@ -14,12 +14,10 @@ A [Svelte Kit](https://kit.svelte.dev/) + [daisyUI](https://daisyui.com/) + Type
 
 ## Installation
 
-1. Clone or download the repository
-2. Enter the `app` folder
-3. Use `npm install` to install the dependencies
-4. Use `npm run dev` to run the development server
-5. ???
-6. Money
+1. Use `npm install` to install the dependencies
+2. Use `npm run dev` to run the development server
+3. ???
+4. Money
 
 `fmt` and `lint` can be used to check the code formatting and linting respectively.
 

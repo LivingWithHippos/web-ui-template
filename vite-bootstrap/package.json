@@ -1,0 +1,27 @@
+{
+  "name": "vite-bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.11",
+    "oxfmt": "^0.54.0",
+    "oxlint": "^1.69.0",
+    "sass": "^1.100.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
+  }
+}
